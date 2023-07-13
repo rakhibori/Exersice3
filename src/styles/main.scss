@@ -1,0 +1,98 @@
+.mainBox{
+    .topMenu{
+        margin: 0 auto;
+        background-color: #95def6;
+        color: #5d5a5a;
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .compputingBox{
+        display: flex;
+        justify-content: center;
+        gap:80px;
+        margin-top: 20px;
+        text-align: center;
+        height: 25px;
+        line-height: 1.5;
+        .countPriceBox{
+            width: 120px;
+            background-color: #cfe8f8;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+    .allSection{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        .sectionB{
+            display: flex;
+            border: 2px solid #ccc;
+            flex-wrap: wrap;
+            border-radius: 5px;
+            justify-content: center;
+            width: 300px;
+            margin-top: 20px;
+            .linkBox{
+                display: flex; 
+            }
+        }   
+            
+        .sectionA{
+            display: flex;
+            justify-content: center;
+            border: 2px solid #ccc;
+            flex-wrap: wrap;
+            width: 480px;
+            border-radius: 5px; 
+            margin-top: 20px;
+            .linkBox{
+                display: flex; 
+            } 
+        }
+        .sectionC{
+            display: flex;
+            justify-content: center;
+            border: 2px solid #ccc;
+            flex-wrap: wrap;
+            width: 300px;
+            border-radius: 5px; 
+            margin-top: 20px;
+            .linkBox{
+                display: flex; 
+            }   
+        }
+        .sectionD{
+            display: flex;
+            justify-content: center;
+            border: 2px solid #ccc;
+            flex-wrap: wrap;
+            width: 720px;
+            border-radius: 5px;  
+            .linkBox{
+                display: flex; 
+            }    
+        }
+        .link{
+            text-align: center;
+            line-height: 2.3;
+            margin: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: #ded8d8;
+            text-decoration: none;
+            color:#000;
+            border-radius: 3px;
+            box-shadow: 1px 1px #928f8f; 
+            cursor:pointer;  
+        }   
+    }
+    
+}
+   
